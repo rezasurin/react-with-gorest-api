@@ -1,0 +1,43 @@
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-wrapper  ul {
+  margin: 0.25rem 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.list-wrapper  li {
+  margin: 0.25rem 0;
+}
+
+
+
+
+.list-wrapper  .header-list:nth-child(1) {
+  min-width: 400px;
+  padding: 0 1rem;
+}
+
+
+.list-wrapper  .header-list:nth-child(2), .list-wrapper  .header-list:nth-child(3),
+.list-wrapper li div {
+  width: 160px;
+}
+
+.list-wrapper  li button {
+  padding: 0.15rem 0.5rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+.list-wrapper  li div, .list-wrapper  li div:nth-child(3) {
+  padding: 0.5rem 0.75rem;
+}
